@@ -1,0 +1,335 @@
+{
+    "data" : [
+              {
+              "applyState" : null,
+              "currentValue" : 11.425,
+              "date" : "2015-12-15",
+              "redeemState" : null,
+              "totalValue" : 15.405
+              },
+              {
+              "applyState" : null,
+              "currentValue" : 11.527,
+              "date" : "2015-12-16",
+              "redeemState" : null,
+              "totalValue" : 15.507
+              },
+              {
+              "applyState" : null,
+              "currentValue" : 11.748,
+              "date" : "2015-12-17",
+              "redeemState" : null,
+              "totalValue" : 15.728
+              },
+              {
+              "applyState" : null,
+              "currentValue" : 11.699,
+              "date" : "2015-12-18",
+              "redeemState" : null,
+              "totalValue" : 15.679
+              },
+              {
+              "applyState" : null,
+              "currentValue" : 11.781,
+              "date" : "2015-12-21",
+              "redeemState" : null,
+              "totalValue" : 15.761
+              },
+              {
+              "applyState" : null,
+              "currentValue" : 11.964,
+              "date" : "2015-12-22",
+              "redeemState" : null,
+              "totalValue" : 15.944
+              },
+              {
+              "applyState" : null,
+              "currentValue" : 11.807,
+              "date" : "2015-12-23",
+              "redeemState" : null,
+              "totalValue" : 15.787
+              },
+              {
+              "applyState" : null,
+              "currentValue" : 11.794,
+              "date" : "2015-12-24",
+              "redeemState" : null,
+              "totalValue" : 15.774
+              },
+              {
+              "applyState" : null,
+              "currentValue" : 11.809,
+              "date" : "2015-12-25",
+              "redeemState" : null,
+              "totalValue" : 15.789
+              },
+              {
+              "applyState" : null,
+              "currentValue" : 11.533,
+              "date" : "2015-12-28",
+              "redeemState" : null,
+              "totalValue" : 15.513
+              },
+              {
+              "applyState" : null,
+              "currentValue" : 11.636,
+              "date" : "2015-12-29",
+              "redeemState" : null,
+              "totalValue" : 15.616
+              },
+              {
+              "applyState" : null,
+              "currentValue" : 11.703,
+              "date" : "2015-12-30",
+              "redeemState" : null,
+              "totalValue" : 15.683
+              },
+              {
+              "applyState" : null,
+              "currentValue" : 11.532,
+              "date" : "2015-12-31",
+              "redeemState" : null,
+              "totalValue" : 15.512
+              },
+              {
+              "applyState" : null,
+              "currentValue" : 10.62,
+              "date" : "2016-01-04",
+              "redeemState" : null,
+              "totalValue" : 14.6
+              },
+              {
+              "applyState" : null,
+              "currentValue" : 10.544,
+              "date" : "2016-01-05",
+              "redeemState" : null,
+              "totalValue" : 14.524
+              },
+              {
+              "applyState" : null,
+              "currentValue" : 10.851,
+              "date" : "2016-01-06",
+              "redeemState" : null,
+              "totalValue" : 14.831
+              },
+              {
+              "applyState" : null,
+              "currentValue" : 9.966,
+              "date" : "2016-01-07",
+              "redeemState" : null,
+              "totalValue" : 13.946
+              },
+              {
+              "applyState" : null,
+              "currentValue" : 10.159,
+              "date" : "2016-01-08",
+              "redeemState" : null,
+              "totalValue" : 14.139
+              },
+              {
+              "applyState" : null,
+              "currentValue" : 9.623,
+              "date" : "2016-01-11",
+              "redeemState" : null,
+              "totalValue" : 13.603
+              },
+              {
+              "applyState" : null,
+              "currentValue" : 9.661,
+              "date" : "2016-01-12",
+              "redeemState" : null,
+              "totalValue" : 13.641
+              },
+              {
+              "applyState" : null,
+              "currentValue" : 9.37,
+              "date" : "2016-01-13",
+              "redeemState" : null,
+              "totalValue" : 13.35
+              },
+              {
+              "applyState" : null,
+              "currentValue" : 9.67,
+              "date" : "2016-01-14",
+              "redeemState" : null,
+              "totalValue" : 13.65
+              },
+              {
+              "applyState" : null,
+              "currentValue" : 9.233,
+              "date" : "2016-01-15",
+              "redeemState" : null,
+              "totalValue" : 13.213
+              },
+              {
+              "applyState" : null,
+              "currentValue" : 9.277,
+              "date" : "2016-01-18",
+              "redeemState" : null,
+              "totalValue" : 13.257
+              },
+              {
+              "applyState" : null,
+              "currentValue" : 9.63,
+              "date" : "2016-01-19",
+              "redeemState" : null,
+              "totalValue" : 13.61
+              },
+              {
+              "applyState" : null,
+              "currentValue" : 9.454,
+              "date" : "2016-01-20",
+              "redeemState" : null,
+              "totalValue" : 13.434
+              },
+              {
+              "applyState" : null,
+              "currentValue" : 9.081,
+              "date" : "2016-01-21",
+              "redeemState" : null,
+              "totalValue" : 13.061
+              },
+              {
+              "applyState" : null,
+              "currentValue" : 9.254,
+              "date" : "2016-01-22",
+              "redeemState" : null,
+              "totalValue" : 13.234
+              },
+              {
+              "applyState" : null,
+              "currentValue" : 9.449,
+              "date" : "2016-01-25",
+              "redeemState" : null,
+              "totalValue" : 13.429
+              },
+              {
+              "applyState" : null,
+              "currentValue" : 8.844,
+              "date" : "2016-01-26",
+              "redeemState" : null,
+              "totalValue" : 12.824
+              },
+              {
+              "applyState" : null,
+              "currentValue" : 8.876,
+              "date" : "2016-01-27",
+              "redeemState" : null,
+              "totalValue" : 12.856
+              },
+              {
+              "applyState" : null,
+              "currentValue" : 8.526,
+              "date" : "2016-01-28",
+              "redeemState" : null,
+              "totalValue" : 12.506
+              },
+              {
+              "applyState" : null,
+              "currentValue" : 8.79,
+              "date" : "2016-01-29",
+              "redeemState" : null,
+              "totalValue" : 12.77
+              },
+              {
+              "applyState" : null,
+              "currentValue" : 8.664,
+              "date" : "2016-02-01",
+              "redeemState" : null,
+              "totalValue" : 12.644
+              },
+              {
+              "applyState" : null,
+              "currentValue" : 8.911,
+              "date" : "2016-02-02",
+              "redeemState" : null,
+              "totalValue" : 12.891
+              },
+              {
+              "applyState" : null,
+              "currentValue" : 8.888,
+              "date" : "2016-02-03",
+              "redeemState" : null,
+              "totalValue" : 12.868
+              },
+              {
+              "applyState" : null,
+              "currentValue" : 9.006,
+              "date" : "2016-02-04",
+              "redeemState" : null,
+              "totalValue" : 12.986
+              },
+              {
+              "applyState" : null,
+              "currentValue" : 8.962,
+              "date" : "2016-02-05",
+              "redeemState" : null,
+              "totalValue" : 12.942
+              },
+              {
+              "applyState" : "开放",
+              "currentValue" : 9.76,
+              "date" : "2016-02-23",
+              "redeemState" : "开放",
+              "totalValue" : 13.74
+              },
+              {
+              "applyState" : "开放",
+              "currentValue" : 9.778,
+              "date" : "2016-02-24",
+              "redeemState" : "开放",
+              "totalValue" : 13.758
+              },
+              {
+              "applyState" : "开放",
+              "currentValue" : 9.06,
+              "date" : "2016-02-25",
+              "redeemState" : "开放",
+              "totalValue" : 13.04
+              },
+              {
+              "applyState" : "开放",
+              "currentValue" : 9.286,
+              "date" : "2016-02-26",
+              "redeemState" : "开放",
+              "totalValue" : 13.266
+              },
+              {
+              "applyState" : "开放",
+              "currentValue" : 8.991,
+              "date" : "2016-02-29",
+              "redeemState" : "开放",
+              "totalValue" : 12.971
+              },
+              {
+              "applyState" : "开放",
+              "currentValue" : 9.16,
+              "date" : "2016-03-01",
+              "redeemState" : "开放",
+              "totalValue" : 13.14
+              },
+              {
+              "applyState" : "开放",
+              "currentValue" : 9.629,
+              "date" : "2016-03-02",
+              "redeemState" : "开放",
+              "totalValue" : 13.609
+              },
+              {
+              "applyState" : "开放",
+              "currentValue" : 9.573,
+              "date" : "2016-03-03",
+              "redeemState" : "开放",
+              "totalValue" : 13.553
+              },
+              {
+              "applyState" : "开放",
+              "currentValue" : 9.417,
+              "date" : "2016-03-04",
+              "redeemState" : "开放",
+              "totalValue" : 13.397
+              }
+              ],
+    "msg" : null,
+    "state" : 1
+}

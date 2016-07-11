@@ -1,0 +1,14 @@
+//
+//  PrefixHeader.pch
+//  选择器
+//
+//  Created by 解炳灿 on 16/5/26.
+//  Copyright © 2016年 解炳灿. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#import "AppMarco.h"
+
+#endif /* PrefixHeader_pch */

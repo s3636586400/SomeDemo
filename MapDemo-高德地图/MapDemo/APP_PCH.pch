@@ -1,0 +1,16 @@
+//
+//  APP_PCH.pch
+//  MapDemo
+//
+//  Created by 解炳灿 on 16/4/13.
+//  Copyright © 2016年 解炳灿. All rights reserved.
+//
+
+#ifndef APP_PCH_pch
+#define APP_PCH_pch
+
+#import "AppMacro.h"
+
+#import "BaseViewController.h"
+
+#endif /* APP_PCH_pch */

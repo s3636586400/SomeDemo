@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="s4e-fP-Bdl">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rkg-As-2hD">
+                                <rect key="frame" x="15" y="164" width="345" height="30"/>
+                                <state key="normal" title="绘制到位图"/>
+                                <connections>
+                                    <segue destination="GIm-h5-y7k" kind="show" id="TuJ-oj-BmG"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pLf-LA-8zL">
+                                <rect key="frame" x="15" y="294" width="345" height="30"/>
+                                <state key="normal" title="绘制到PDF"/>
+                                <connections>
+                                    <segue destination="Dtb-FI-idN" kind="show" id="eyG-wU-aNP"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="rkg-As-2hD" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="15" id="6sm-JS-HW1"/>
+                            <constraint firstAttribute="trailing" secondItem="pLf-LA-8zL" secondAttribute="trailing" constant="15" id="NCY-jg-SwW"/>
+                            <constraint firstItem="rkg-As-2hD" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="100" id="ft6-a2-TDz"/>
+                            <constraint firstItem="pLf-LA-8zL" firstAttribute="top" secondItem="rkg-As-2hD" secondAttribute="bottom" constant="100" id="jmx-gI-YdZ"/>
+                            <constraint firstAttribute="trailing" secondItem="rkg-As-2hD" secondAttribute="trailing" constant="15" id="sUO-DV-3Yw"/>
+                            <constraint firstItem="pLf-LA-8zL" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="15" id="uCq-pr-PPM"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="tOX-L3-ejh"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1053.5" y="245.5"/>
+        </scene>
+        <!--绘制到PDF-->
+        <scene sceneID="inM-lh-R5w">
+            <objects>
+                <viewController id="Dtb-FI-idN" customClass="MISecondViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="pmh-z1-Lpb"/>
+                        <viewControllerLayoutGuide type="bottom" id="eby-Fp-2w4"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="EHv-YH-yEE">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="绘制到PDF" id="JF9-2b-0Xj"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="TdN-K5-ojN" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1053.5" y="1021.5"/>
+        </scene>
+        <!--绘制到位图-->
+        <scene sceneID="UOI-ii-2po">
+            <objects>
+                <viewController id="GIm-h5-y7k" customClass="MIFirstViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="FjU-AI-B81"/>
+                        <viewControllerLayoutGuide type="bottom" id="G7B-gV-sSb"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Cwz-Lc-Z0z">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ImageContext可以把画的东西保存到UIImage中(例如加个水印……)" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wEr-b9-fDz">
+                                <rect key="frame" x="31" y="79" width="313" height="33.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="wEr-b9-fDz" secondAttribute="trailing" constant="15" id="QYb-l6-bN1"/>
+                            <constraint firstItem="wEr-b9-fDz" firstAttribute="top" secondItem="FjU-AI-B81" secondAttribute="bottom" constant="15" id="aE1-aF-zDL"/>
+                            <constraint firstItem="wEr-b9-fDz" firstAttribute="leading" secondItem="Cwz-Lc-Z0z" secondAttribute="leadingMargin" constant="15" id="ydh-lE-fcX"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="绘制到位图" id="F10-9O-pA0"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="uAQ-1m-KCY" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1517.5" y="245.5"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="W1b-qC-fYL">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="s4e-fP-Bdl" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="HPh-Ql-Eoe">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="ucW-Sa-oCf"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iLP-e5-RhH" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="241" y="245"/>
+        </scene>
+    </scenes>
+</document>

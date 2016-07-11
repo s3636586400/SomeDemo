@@ -1,0 +1,19 @@
+PODS:
+  - CocoaAsyncSocket (7.4.3):
+    - CocoaAsyncSocket/All (= 7.4.3)
+  - CocoaAsyncSocket/All (7.4.3):
+    - CocoaAsyncSocket/GCD
+    - CocoaAsyncSocket/RunLoop
+  - CocoaAsyncSocket/GCD (7.4.3)
+  - CocoaAsyncSocket/RunLoop (7.4.3)
+  - IQKeyboardManager (3.3.7)
+
+DEPENDENCIES:
+  - CocoaAsyncSocket (~> 7.4.3)
+  - IQKeyboardManager
+
+SPEC CHECKSUMS:
+  CocoaAsyncSocket: a18c75dca4b08723628a0bacca6e94803d90be91
+  IQKeyboardManager: 249c3946acf61345c18b038eb50863fe2793e3a8
+
+COCOAPODS: 0.39.0
