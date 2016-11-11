@@ -1,2 +1,2 @@
 # SomeDemo
-Personal Demo During Learing iOS.
+学Objective-C时敲的一些Demo
